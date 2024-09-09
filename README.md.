@@ -1,0 +1,35 @@
+# Robotic Arm Package Sorter
+
+This Python script categorizes packages into `STANDARD`, `SPECIAL`, and `REJECTED` based on their volume and mass.
+
+## Problem Description:
+- A package is **bulky** if its volume (Width x Height x Length) is greater than or equal to 1,000,000 cm³ or any dimension is greater than or equal to 150 cm.
+- A package is **heavy** if its mass is greater than or equal to 20 kg.
+
+### Dispatch Rules:
+- `STANDARD`: Packages that are neither bulky nor heavy.
+- `SPECIAL`: Packages that are either bulky or heavy.
+- `REJECTED`: Packages that are both bulky and heavy.
+
+## How to Run:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/robotic-arm-package-sorter.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd robotic-arm-package-sorter
+   ```
+3. Run the Python script:
+   ```bash
+   python sort_packages.py
+   ```
+
+## Example Outputs:
+
+
+
+## Requirements:
+
+- Python 3.x
